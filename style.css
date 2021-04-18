@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    text-align: center;
+}
+
+/* name */
+.name{
+    margin: 10px 0 10px 0;
+}
+.name h1{
+    font-size: 36px;
+    margin: 1.3rem 8rem;
+    border-bottom: 0.05rem black solid;
+}
+.name p{
+    font-size: 16px;
+    letter-spacing: 2px;
+    border-bottom: 3px black solid;
+    margin: 0 8rem;
+}
+
+/* education */
+.education{
+    margin: 10px 0 10px 0;
+}
+.education h3{
+    font-size: 24px;
+    margin: 1.3rem 5rem;
+}
+.education .sub-education{
+    border-bottom: 3px black solid;
+    margin: 0 8rem;
+}
+.education .sub-education p{
+    text-align: left;
+    margin-left: 23.2px;
+}
+.education .sub-education p b span{
+    margin-left: 36rem;
+}
+.education .sub-education p + p{ 
+   margin-bottom: 1rem;
+}
+
+/* trainings */
+.trainings{
+    margin: 10px 0 10px 0;   
+    border-bottom: 3px black solid;
+    margin: 0 8rem;
+}
+.trainings h3{
+    font-size: 24px;
+    margin: 1.3rem 5rem;   
+}
+
+/* training t1 */
+.trainings .t1{
+    margin-bottom: 1rem;
+}
+.trainings .t1 p {
+    text-align: left;
+    margin-left: 23.2px;
+}
+.trainings .t1 p b span{
+    margin-left: 34.8rem;
+}
+
+/* training t2 */
+.trainings .t2{
+    margin-bottom: 1rem;
+}
+.trainings .t2 p {
+    text-align: left;
+    margin-left: 23.2px;
+}
+.trainings .t2 p b span{
+    margin-left: 39.7rem;
+}
+
+
+/* training t3 */
+.trainings .t3{
+    margin-bottom: 1rem;
+}
+.trainings .t3 p {
+    text-align: left;
+    margin-left: 23.2px;
+}
+.trainings .t3 p b span{
+    margin-left: 45.6rem;
+}
+
+
+/* training t4 */
+.trainings .t4{
+    margin-bottom: 1rem;
+}
+.trainings .t4 p b span{
+    margin-left: 32.2rem;
+}
+.trainings .t4 > p{
+    text-align: left;
+    margin-left: 23.2px;
+}
+
+/* training 5 */
+.trainings .t5{
+    margin-bottom: 1rem;
+}
+.trainings .t5 p b span{
+    margin-left: 43.8rem;
+}
+.trainings .t5 > p{
+    text-align: left;
+    margin-left: 23.2px;
+}
+   
+/* training 6 */
+.trainings .t6{
+    margin-bottom: 1rem;
+}
+.trainings .t6 p {
+    text-align: left;
+    margin-left: 23.2px;
+}
+.trainings .t6 p b span{
+    margin-left: 47.2rem;
+}
+
+/* competiencies */
+.competencies{
+    border-bottom: 3px black solid;
+    margin: 0 8rem;
+    text-align: left;
+    margin-bottom: 1rem; 
+}
+.competencies h3{
+    font-size: 24px;
+    margin: 1.3rem 5rem;
+    text-align: center;
+}
+.competencies ul{
+    text-align: start;
+    margin-left: 23.2px;
+    display: flex;  
+}
+.competencies ul li{
+    margin-left: 23.2px;
+    padding: 3px 10px;
+}
+
+/* experiences */
+.experiences{
+    text-align: left;
+    margin: 0 8rem 1rem 8rem;
+    border-bottom: 3px black solid;
+}
+.experiences h3{
+    font-size: 24px;
+    margin: 1.3rem 5rem;
+    text-align: center;
+}
+.experiences .experience-heading1 p{
+    text-align: left;
+    margin-left: 23.2px;
+}
+.experiences .experience-heading1 p b span{
+    margin-left: 37.9rem;
+}
+.experiences .experience-heading1 p + p b span{
+    margin-left: 34.7rem;
+}
+
+.experiences .sub-experiences1 ul{
+    text-align: start;
+    margin-left: 23.2px;
+    margin-bottom: 1.2rem;
+    padding-top: 0.5rem;
+}
+.experiences .sub-experiences1 ul li{
+    margin-left: 23.2px;
+    padding: 3px 10px;
+}
+
+.experiences .experience-heading2 p{
+    text-align: left;
+    margin-left: 23.2px;
+}
+.experiences .experience-heading2 p b span{
+    margin-left: 32.7rem;
+}
+.experiences .experience-heading2 p + p b span{
+    margin-left: 31rem;
+}
+.experiences .sub-experiences2 ul{
+    text-align: start;
+    margin-left: 23.2px;
+    padding-top: 0.5rem;
+}
+.experiences .sub-experiences2 ul li{
+    margin-left: 23.2px;
+    padding: 3px 10px;
+}
+
+/* volunteering */
+.volunteering{
+    text-align: left;
+    margin: 0 8rem 1rem 8rem;
+    border-bottom: 3px black solid;
+}
+.volunteering h3{
+    font-size: 24px;
+    margin: 1.3rem 5rem;
+    text-align: center;
+}
+.volunteering .volunteering-heading1 p{
+    text-align: left;
+    margin-left: 23.2px;
+}
+.volunteering .volunteering-heading1 p b span{
+    margin-left: 39.8rem;
+}
+.volunteering .sub-volunteering1 ul{
+    text-align: start;
+    margin-left: 23.2px;
+    margin-bottom: 1.2rem;
+    padding-top: 0.5rem;
+}
+.volunteering .sub-volunteering1 ul li{
+    margin-left: 23.2px;
+    padding: 3px 10px;
+}
+
+.volunteering .volunteering-heading2 p{
+    text-align: left;
+    margin-left: 23.2px;
+}
+.volunteering .volunteering-heading2 p b span{
+    margin-left: 35.3rem;
+}
+.volunteering .sub-volunteering2 ul{
+    text-align: start;
+    margin-left: 23.2px;
+    padding-top: 0.5rem;
+}
+.volunteering .sub-volunteering2 ul li{
+    margin-left: 23.2px;
+    padding: 3px 10px;
+}
+
+@media screen and (max-width: 760px) {
+    body{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .name{
+        margin: 10px 0 10px 0;
+    }
+    .name h1{
+        color: rgb(18, 18, 212);
+        font-size: 28px;
+        margin: 1.3rem 8rem;
+        border-bottom: 0.05rem black solid;
+    }
+    .name p{
+        text-align: center;
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 1em;
+        border-bottom: 3px black solid;
+        margin: 0 8rem;
+    }
+
+    .education{
+        margin: 10px 0 10px 0;
+    }
+    .education h3{
+        font-size: 21px;
+        margin: 1.3rem 5rem;
+    }
+    .education .sub-education p b span{
+        margin-left: 0rem;
+        flex-direction: row;
+    }
+
+    /* trainings */
+    .trainings h3{
+        font-size: 21px;
+        margin: 1.3rem 5rem;  
+    }
+
+    /* training t1 */
+    .trainings .t1 p b span{
+        margin-left: 0rem;
+        flex-direction: row;
+    }
+
+    /* training t2 */
+    .trainings .t2 p b span{
+        margin-left: 0rem;
+        flex-direction: row;
+    }
+
+    /* training t3 */
+    .trainings .t3 p b span{
+        margin-left: 0rem;
+        flex-direction: row;
+    }
+
+
+    /* training t4 */
+    .trainings .t4 p b span{
+        margin-left: 0rem;
+        flex-direction: row;
+    }
+
+    /* training 5 */
+    .trainings .t5 p b span{
+        margin-left: 0rem;
+        flex-direction: row;
+    }
+   
+    /* training 6 */
+    .trainings .t6 p b span{
+        margin-left: 0rem;
+        flex-direction: row;
+    }
+
+    /* competiencies */
+    .competencies h3{
+        font-size: 21px;
+    }
+    .competencies ul{
+        text-align: start;
+        margin-left: 23.2px;
+        display: block;  
+    }
+    .competencies ul li{
+        margin-left: 23.2px;
+        padding: 3px 10px;
+    }
+
+    /* experiences */
+    .experiences h3{
+        font-size: 21px;
+    }
+    .experiences .experience-heading1 p b span{
+        margin-left: 0rem;
+        flex-direction: row;
+    }
+    .experiences .experience-heading1 p + p b span{
+        margin-left: 0rem;
+        flex-direction: row;
+    }
+
+    .experiences .experience-heading2 p b span{
+        margin-left: 0rem;
+        flex-direction: row;
+    }
+    .experiences .experience-heading2 p + p b span{
+        margin-left: 0rem;
+        flex-direction: row;
+    }
+
+    /* volunteering */
+    .volunteering{
+        text-align: left;
+        margin: 0 8rem 1rem 8rem;
+        border-bottom: 3px black solid;
+        justify-content: center;
+    }
+    .volunteering h3{
+        font-size: 21px;
+        margin: 1.3rem 5rem;
+        text-align: center;
+    }
+    .volunteering .volunteering-heading1 p b span{
+        margin-left: 0rem;
+        flex-direction: row;
+    }
+    .volunteering .volunteering-heading2 p b span{
+        margin-left: 0rem;
+        flex-direction: row;
+    }
+}
